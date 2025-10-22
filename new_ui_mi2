@@ -1,0 +1,68 @@
+ /* GssJsonEditor.css */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.container {
+  padding: 1.5rem;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.editor-wrapper {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.btn-blue {
+  background-color: #2563eb;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-gray {
+  background-color: #374151;
+  color: white;
+}
+.btn-gray:hover {
+  background-color: #1f2937;
+}
+
+.btn-green {
+  background-color: #16a34a;
+  color: white;
+}
+.btn-green:hover {
+  background-color: #15803d;
+}
